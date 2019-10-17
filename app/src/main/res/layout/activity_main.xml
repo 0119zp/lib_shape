@@ -1,68 +1,360 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="20dp">
+    android:layout_height="match_parent">
 
-    <LinearLayout
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-        <zpan.example.superbutton.SuperButtonKotlin
-            android:layout_width="80dp"
-            android:layout_height="44dp"
-            app:color_normal="#e74d4d"
-            app:corner="8dp"
-            app:text="按钮"
-            app:textColor="#ffffff"
-            app:textSize="16dp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="基本按钮、字体加粗、背景置灰"
+            android:textColor="@color/colorAccent" />
 
-        <zpan.example.superbutton.SuperButtonKotlin
-            android:id="@+id/btn12"
-            android:layout_width="80dp"
-            android:layout_height="44dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            app:color_normal="#e74d4d"
-            app:corner="8dp"
-            app:text="加粗"
-            app:textColor="#ffffff"
-            app:textSize="16dp"
-            app:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-        <zpan.example.superbutton.SuperButtonKotlin
-            android:id="@+id/btn13"
-            android:layout_width="80dp"
-            android:layout_height="44dp"
-            app:color_normal="#999999"
-            app:corner="8dp"
-            app:text="置灰"
-            app:textColor="#ffffff"
-            app:textSize="16dp" />
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                app:color_normal="#e74d4d"
+                app:corner="8dp"
+                app:text="按钮"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
 
-    </LinearLayout>
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:id="@+id/btn12"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:color_normal="#e74d4d"
+                app:corner="8dp"
+                app:text="加粗"
+                app:textColor="#ffffff"
+                app:textSize="16sp"
+                app:textStyle="bold" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                app:color_normal="#999999"
+                app:corner="8dp"
+                app:text="置灰"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
 
-        <zpan.example.superbutton.SuperButtonKotlin
-            android:id="@+id/btn3"
-            android:layout_width="80dp"
-            android:layout_height="44dp"
-            app:border_color="#e74d4d"
-            app:border_width="1dp"
-            app:color_normal="#ffffff"
-            app:corner="8dp"
-            app:text="按钮"
-            app:textColor="#e74d4d"
-            app:textSize="16dp" />
+        </LinearLayout>
 
-    </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="设置不同圆角"
+            android:textColor="@color/colorAccent" />
 
-</androidx.appcompat.widget.LinearLayoutCompat>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                app:color_normal="#e74d4d"
+                app:corner="4dp"
+                app:text="4dp"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:color_normal="#e74d4d"
+                app:corner="12dp"
+                app:text="12dp"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                app:color_normal="#e74d4d"
+                app:corner="20dp"
+                app:text="20dp"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="60dp"
+                android:layout_height="24dp"
+                app:color_normal="#e74d4d"
+                app:corner="12dp"
+                app:text="12dp"
+                app:textColor="#ffffff"
+                app:textSize="14sp" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="带边框按钮、边框和文字置灰"
+            android:textColor="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                app:border_color="#e74d4d"
+                app:border_width="1dp"
+                app:color_normal="#ffffff"
+                app:corner="8dp"
+                app:text="按钮"
+                app:textColor="#e74d4d"
+                app:textSize="16sp" />
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                app:border_color="#999999"
+                app:border_width="1dp"
+                app:color_normal="#ffffff"
+                app:corner="8dp"
+                app:text="置灰"
+                app:textColor="#999999"
+                app:textSize="16sp" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="设置不同圆角弧度"
+            android:textColor="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                app:border_color="#e74d4d"
+                app:border_width="1dp"
+                app:color_normal="#ffffff"
+                app:corner_left_bottom="20dp"
+                app:corner_right_top="20dp"
+                app:text="按钮"
+                app:textColor="#e74d4d"
+                app:textSize="16sp" />
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                app:border_color="#999999"
+                app:border_width="1dp"
+                app:color_normal="#ffffff"
+                app:corner_left_top="20dp"
+                app:corner_right_top="20dp"
+                app:text="置灰"
+                app:textColor="#999999"
+                app:textSize="16sp" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="设置不同背景图形，默认是矩形"
+            android:textColor="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                app:color_normal="#e74d4d"
+                app:corner="8dp"
+                app:text="矩形"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                app:color_normal="#e74d4d"
+                app:shape="CIRCLE"
+                app:text="圆"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="设置背景渐变色，默认从左到右"
+            android:textColor="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                app:color_end="#e74d4d"
+                app:color_start="#6B98E9"
+                app:corner="8dp"
+                app:text="默认从左到右"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                app:color_direction="TOP_BOTTOM"
+                app:color_end="#e74d4d"
+                app:color_normal="#e74d4d"
+                app:color_start="#6B98E9"
+                app:text="从上到下"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="点击按钮改变背景颜色"
+            android:textColor="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                app:color_normal="#999999"
+                app:color_pressed="#e74d4d"
+                app:corner="8dp"
+                app:text="点击改变背景颜色"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="设置图标+文字按钮"
+            android:textColor="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="44dp"
+                app:color_normal="#e74d4d"
+                app:corner="8dp"
+                app:drawable_left="@mipmap/ic_launcher"
+                app:drawable_padding="8dp"
+                app:text="按钮"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="10dp"
+                app:color_normal="#e74d4d"
+                app:corner="8dp"
+                app:drawable_padding="8dp"
+                app:drawable_right="@mipmap/ic_launcher"
+                app:text="按钮"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                app:color_normal="#e74d4d"
+                app:corner="8dp"
+                app:drawable_padding="2dp"
+                app:drawable_top="@mipmap/ic_launcher"
+                app:text="按钮"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                app:color_normal="#e74d4d"
+                app:corner="8dp"
+                app:drawable_bottom="@mipmap/ic_launcher"
+                app:drawable_padding="2dp"
+                app:text="按钮"
+                app:textColor="#ffffff"
+                app:textSize="16sp" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="设置图标"
+            android:textColor="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <zpan.example.superbutton.SuperButtonKotlin
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:color_normal="#e74d4d"
+                app:drawable_middle="@mipmap/ic_launcher"
+                app:shape="CIRCLE" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>
