@@ -6,7 +6,7 @@
 ### 概述
 该自定义SuperButton，覆盖了差不多80%的按钮使用场景。以往我们遇到这样的按钮样式，实现方式都是shape、selector。有了这个控件以后就再也不会有写shape的烦恼了。这里的SuperButton提供了Java和Kotlin两种。
 ### 示例图
-![SuperButton示例图](https://github.com/0119zp/feat_superbutton/blob/master/superbutton%E7%A4%BA%E4%BE%8B%E5%9B%BE.png)
+![SuperButton示例图](https://github.com/0119zp/feat_superbutton/blob/master/SuperButton%E7%A4%BA%E4%BE%8B.png)
 ### 示例代码 - 只需要配置其相应的属性就好
 ~~~
 <zpan.example.superbutton.SuperButtonKotlin
