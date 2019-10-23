@@ -1,4 +1,4 @@
-package zpan.example.superbutton
+package zpan.example.shape
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -24,7 +24,7 @@ import androidx.annotation.ColorInt
  *
  * description: TODO
  */
-class SuperButtonKotlin @JvmOverloads constructor(
+class ShapeButtonKotlin @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0

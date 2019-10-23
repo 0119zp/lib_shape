@@ -1,4 +1,4 @@
-package zpan.example.superbutton;
+package zpan.example.shape;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -7,7 +7,7 @@ import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.util.AttributeSet;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 import androidx.annotation.ColorInt;
 import androidx.annotation.Nullable;
@@ -15,7 +15,7 @@ import androidx.annotation.Nullable;
 /**
  * @author zpan
  */
-public class ShapeLinearLayout extends LinearLayout {
+public class ShapeRelativeLayout extends RelativeLayout {
 
     /**
      * value空值
@@ -111,15 +111,15 @@ public class ShapeLinearLayout extends LinearLayout {
      */
     private GradientDrawable mShapeBackground;
 
-    public ShapeLinearLayout(Context context) {
+    public ShapeRelativeLayout(Context context) {
         this(context, null);
     }
 
-    public ShapeLinearLayout(Context context, @Nullable AttributeSet attrs) {
+    public ShapeRelativeLayout(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public ShapeLinearLayout(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ShapeRelativeLayout(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initShape(context, attrs);
     }

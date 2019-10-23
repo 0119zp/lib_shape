@@ -6,17 +6,17 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <zpan.example.superbutton.SuperButtonJava
-        android:id="@+id/btn_to_super_button"
+    <zpan.example.shape.ShapeButtonJava
+        android:id="@+id/btn_to_shape_button"
         android:layout_width="120dp"
         android:layout_height="40dp"
         app:color_normal="#e74d4d"
         app:corner="8dp"
-        app:text="SuperButton"
+        app:text="ShapeButton"
         app:textColor="#ffffff"
         app:textSize="16sp" />
 
-    <zpan.example.superbutton.SuperButtonJava
+    <zpan.example.shape.ShapeButtonJava
         android:id="@+id/btn_to_shape_layout"
         android:layout_width="120dp"
         android:layout_height="40dp"

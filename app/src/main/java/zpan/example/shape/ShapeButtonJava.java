@@ -1,4 +1,4 @@
-package zpan.example.superbutton;
+package zpan.example.shape;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -26,7 +26,7 @@ import androidx.annotation.Nullable;
  *
  * description: TODO
  */
-public class SuperButtonJava extends LinearLayout {
+public class ShapeButtonJava extends LinearLayout {
 
     /**
      * value空值
@@ -177,15 +177,15 @@ public class SuperButtonJava extends LinearLayout {
      */
     private boolean mButtonClickable = true;
 
-    public SuperButtonJava(Context context) {
+    public ShapeButtonJava(Context context) {
         this(context, null);
     }
 
-    public SuperButtonJava(Context context, @Nullable AttributeSet attrs) {
+    public ShapeButtonJava(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public SuperButtonJava(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ShapeButtonJava(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initButton(context, attrs);
     }

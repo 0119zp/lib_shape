@@ -1,4 +1,4 @@
-package zpan.example.superbutton;
+package zpan.example.shape;
 
 import android.os.Bundle;
 
@@ -7,15 +7,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * @author zpan
- * @date 2019/10/22 20:05
+ * @date 2019/10/22 20:03
  * <p>
- * description: shape 背景示例
+ * description: superButton 示例
  */
-public class ShapeLayoutActivity extends AppCompatActivity {
+public class ShapeButtonActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shape_layout);
+        setContentView(R.layout.activity_shape_button);
     }
 }

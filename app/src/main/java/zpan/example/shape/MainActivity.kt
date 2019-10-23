@@ -1,4 +1,4 @@
-package zpan.example.superbutton
+package zpan.example.shape
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn_to_super_button.setOnClickListener {
-            val intent = Intent(this, SuperButtonActivity::class.java)
+        btn_to_shape_button.setOnClickListener {
+            val intent = Intent(this, ShapeButtonActivity::class.java)
             startActivity(intent)
         }
 
