@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':lib_shape'
 rootProject.name='feat_superbutton'

@@ -1,4 +1,4 @@
-package zpan.example.shape;
+package zpan.lib.shape;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -26,7 +26,7 @@ import androidx.annotation.Nullable;
  *
  * description: TODO
  */
-public class ShapeButtonJava extends LinearLayout {
+public class ShapeButton extends LinearLayout {
 
     /**
      * value空值
@@ -177,15 +177,15 @@ public class ShapeButtonJava extends LinearLayout {
      */
     private boolean mButtonClickable = true;
 
-    public ShapeButtonJava(Context context) {
+    public ShapeButton(Context context) {
         this(context, null);
     }
 
-    public ShapeButtonJava(Context context, @Nullable AttributeSet attrs) {
+    public ShapeButton(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public ShapeButtonJava(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ShapeButton(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initButton(context, attrs);
     }
