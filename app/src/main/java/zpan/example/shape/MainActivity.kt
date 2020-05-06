@@ -13,12 +13,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn_to_shape_button.setOnClickListener {
-            val intent = Intent(this, ShapeButtonActivity::class.java)
+            val intent = Intent(this, TextViewShapeActivity::class.java)
             startActivity(intent)
         }
 
         btn_to_shape_layout.setOnClickListener {
-            val intent = Intent(this, ShapeLayoutActivity::class.java)
+            val intent = Intent(this, LayoutShapeActivity::class.java)
             startActivity(intent)
         }
     }

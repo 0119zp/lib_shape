@@ -7,7 +7,7 @@ import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.util.AttributeSet;
-import android.widget.RelativeLayout;
+import android.widget.LinearLayout;
 
 import androidx.annotation.ColorInt;
 import androidx.annotation.Nullable;
@@ -15,7 +15,7 @@ import androidx.annotation.Nullable;
 /**
  * @author zpan
  */
-public class ShapeRelativeLayout extends RelativeLayout {
+public class LinearLayoutShape extends LinearLayout {
 
     /**
      * value空值
@@ -111,15 +111,15 @@ public class ShapeRelativeLayout extends RelativeLayout {
      */
     private GradientDrawable mShapeBackground;
 
-    public ShapeRelativeLayout(Context context) {
+    public LinearLayoutShape(Context context) {
         this(context, null);
     }
 
-    public ShapeRelativeLayout(Context context, @Nullable AttributeSet attrs) {
+    public LinearLayoutShape(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public ShapeRelativeLayout(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public LinearLayoutShape(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initShape(context, attrs);
     }

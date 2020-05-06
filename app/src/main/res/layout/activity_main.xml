@@ -6,24 +6,24 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <zpan.lib.shape.ShapeButton
+    <zpan.lib.shape.TextViewShape
         android:id="@+id/btn_to_shape_button"
         android:layout_width="120dp"
         android:layout_height="40dp"
         app:color_normal="#e74d4d"
         app:corner="8dp"
-        app:text="ShapeButton"
+        app:text="TextViewShape"
         app:textColor="#ffffff"
         app:textSize="16sp" />
 
-    <zpan.lib.shape.ShapeButton
+    <zpan.lib.shape.TextViewShape
         android:id="@+id/btn_to_shape_layout"
         android:layout_width="120dp"
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         app:color_normal="#e74d4d"
         app:corner="8dp"
-        app:text="ShapeLayout"
+        app:text="LayoutShape"
         app:textColor="#ffffff"
         app:textSize="16sp" />
 

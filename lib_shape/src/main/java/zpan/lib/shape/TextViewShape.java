@@ -26,7 +26,7 @@ import androidx.annotation.Nullable;
  *
  * description: TODO
  */
-public class ShapeButton extends LinearLayout {
+public class TextViewShape extends LinearLayout {
 
     /**
      * value空值
@@ -177,15 +177,15 @@ public class ShapeButton extends LinearLayout {
      */
     private boolean mButtonClickable = true;
 
-    public ShapeButton(Context context) {
+    public TextViewShape(Context context) {
         this(context, null);
     }
 
-    public ShapeButton(Context context, @Nullable AttributeSet attrs) {
+    public TextViewShape(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public ShapeButton(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public TextViewShape(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initButton(context, attrs);
     }

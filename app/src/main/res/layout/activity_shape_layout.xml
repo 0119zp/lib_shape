@@ -10,10 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="8dp"
-        android:text="LinearLayout"
+        android:text="LinearLayoutShape"
         android:textColor="@color/colorAccent" />
 
-    <zpan.lib.shape.ShapeLinearLayout
+    <zpan.lib.shape.LinearLayoutShape
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -34,17 +34,17 @@
             android:text="我喜欢湖畔的风，因为有水的宁静"
             android:textColor="#333"
             android:textSize="12sp" />
-    </zpan.lib.shape.ShapeLinearLayout>
+    </zpan.lib.shape.LinearLayoutShape>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
-        android:text="RelativeLayout"
+        android:text="RelativeLayoutShape"
         android:textColor="@color/colorAccent" />
 
-    <zpan.lib.shape.ShapeRelativeLayout
+    <zpan.lib.shape.RelativeLayoutShape
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp"
@@ -77,5 +77,5 @@
             android:text="我喜欢湖畔的风，因为有水的宁静\n我喜欢湖畔的风，因为有水的宁静"
             android:textColor="#fff"
             android:textSize="12sp" />
-    </zpan.lib.shape.ShapeRelativeLayout>
+    </zpan.lib.shape.RelativeLayoutShape>
 </LinearLayout>

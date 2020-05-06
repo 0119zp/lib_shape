@@ -17,9 +17,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="zpan.example.shape.ShapeButtonActivity" />
+        <activity android:name="zpan.example.shape.TextViewShapeActivity" />
 
-        <activity android:name="zpan.example.shape.ShapeLayoutActivity" />
+        <activity android:name="zpan.example.shape.LayoutShapeActivity" />
     </application>
 
 </manifest>
