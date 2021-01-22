@@ -18,8 +18,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="12dp"
-        app:shape_color_normal="#00BCD4"
-        app:shape_corner="8dp">
+        app:layout_color_normal="#00BCD4"
+        app:layout_corner="8dp">
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -48,8 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp"
-        app:shape_color_normal="#F44336"
-        app:shape_corner="4dp">
+        app:layout_color_normal="#F44336"
+        app:layout_corner="4dp">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv"

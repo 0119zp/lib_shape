@@ -10,21 +10,21 @@
         android:id="@+id/btn_to_shape_button"
         android:layout_width="120dp"
         android:layout_height="40dp"
-        app:color_normal="#e74d4d"
-        app:corner="8dp"
-        app:text="TextViewShape"
-        app:textColor="#ffffff"
-        app:textSize="16sp" />
+        app:shape_color_normal="#e74d4d"
+        app:shape_corner="8dp"
+        app:shape_text="TextViewShape"
+        app:shape_text_color="#ffffff"
+        app:shape_text_size="16sp" />
 
     <zpan.lib.shape.TextViewShape
         android:id="@+id/btn_to_shape_layout"
         android:layout_width="120dp"
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
-        app:color_normal="#e74d4d"
-        app:corner="8dp"
-        app:text="LayoutShape"
-        app:textColor="#ffffff"
-        app:textSize="16sp" />
+        app:shape_color_normal="#e74d4d"
+        app:shape_corner="8dp"
+        app:shape_text="LayoutShape"
+        app:shape_text_color="#ffffff"
+        app:shape_text_size="16sp" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

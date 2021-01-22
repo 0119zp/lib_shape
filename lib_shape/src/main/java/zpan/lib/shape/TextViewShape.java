@@ -20,12 +20,6 @@ import android.widget.TextView;
 import androidx.annotation.ColorInt;
 import androidx.annotation.Nullable;
 
-/**
- * @author zpan
- * @date 2019/10/17 14:20
- *
- * description: TODO
- */
 public class TextViewShape extends LinearLayout {
 
     /**
@@ -406,120 +400,120 @@ public class TextViewShape extends LinearLayout {
      * 属性解析
      */
     private void parseAttrs(Context context, @Nullable AttributeSet attrs) {
-        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.SuperButton);
+        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.text_view_shape);
         int length = typedArray.getIndexCount();
         for (int i = 0; i < length; i++) {
             int attr = typedArray.getIndex(i);
             //文字内容
-            if (attr == R.styleable.SuperButton_text) {
+            if (attr == R.styleable.text_view_shape_shape_text) {
                 text = typedArray.getText(attr);
             }
             //文字颜色
-            if (attr == R.styleable.SuperButton_textColor) {
+            if (attr == R.styleable.text_view_shape_shape_text_color) {
                 mTextColor = typedArray.getColor(attr, Color.TRANSPARENT);
             }
             //文字大小
-            if (attr == R.styleable.SuperButton_textSize) {
+            if (attr == R.styleable.text_view_shape_shape_text_size) {
                 mTextSize = typedArray.getDimensionPixelSize(attr, VALUE_DEFAULT);
             }
             //字体类型
-            if (attr == R.styleable.SuperButton_textStyle) {
+            if (attr == R.styleable.text_view_shape_shape_text_style) {
                 mTextStyle = typedArray.getInt(attr, NORMAL);
             }
             //默认背景颜色
-            if (attr == R.styleable.SuperButton_color_normal) {
+            if (attr == R.styleable.text_view_shape_shape_color_normal) {
                 mColorNormal = typedArray.getColor(attr, VALUE_NULL);
             }
             //按压状态颜色
-            if (attr == R.styleable.SuperButton_color_pressed) {
+            if (attr == R.styleable.text_view_shape_shape_color_pressed) {
                 mColorPressed = typedArray.getColor(attr, VALUE_NULL);
             }
             //图片在文字左边
-            if (attr == R.styleable.SuperButton_drawable_left) {
+            if (attr == R.styleable.text_view_shape_shape_drawable_left) {
                 mDrawableLeft = typedArray.getDrawable(attr);
             }
             //图片在文字右边
-            if (attr == R.styleable.SuperButton_drawable_right) {
+            if (attr == R.styleable.text_view_shape_shape_drawable_right) {
                 mDrawableRight = typedArray.getDrawable(attr);
             }
             //图片在文字上边
-            if (attr == R.styleable.SuperButton_drawable_top) {
+            if (attr == R.styleable.text_view_shape_shape_drawable_top) {
                 mDrawableTop = typedArray.getDrawable(attr);
             }
             //图片在文字下边
-            if (attr == R.styleable.SuperButton_drawable_bottom) {
+            if (attr == R.styleable.text_view_shape_shape_drawable_bottom) {
                 mDrawableBottom = typedArray.getDrawable(attr);
             }
             //图片在中间
-            if (attr == R.styleable.SuperButton_drawable_middle) {
+            if (attr == R.styleable.text_view_shape_shape_drawable_middle) {
                 mDrawableMiddle = typedArray.getDrawable(attr);
             }
             //图片的宽度
-            if (attr == R.styleable.SuperButton_drawable_middle_width) {
+            if (attr == R.styleable.text_view_shape_shape_drawable_middle_width) {
                 mDrawableMiddleWidth = typedArray.getDimensionPixelSize(attr, VALUE_DEFAULT);
             }
             //图片的高度
-            if (attr == R.styleable.SuperButton_drawable_middle_height) {
+            if (attr == R.styleable.text_view_shape_shape_drawable_middle_height) {
                 mDrawableMiddleHeight = typedArray.getDimensionPixelSize(attr, VALUE_DEFAULT);
             }
             //自动适应文字的大小
-            if (attr == R.styleable.SuperButton_drawable_auto) {
+            if (attr == R.styleable.text_view_shape_shape_drawable_auto) {
                 mDrawableAuto = typedArray.getBoolean(attr, true);
             }
             //文字是否单行
-            if (attr == R.styleable.SuperButton_singleLine) {
+            if (attr == R.styleable.text_view_shape_shape_single_line) {
                 mSingleLine = typedArray.getBoolean(attr, true);
             }
             //图片距离文字距离
-            if (attr == R.styleable.SuperButton_drawable_padding) {
+            if (attr == R.styleable.text_view_shape_shape_drawable_padding) {
                 mDrawablePadding = typedArray.getDimensionPixelSize(attr, VALUE_DEFAULT);
             }
             //形状
-            if (attr == R.styleable.SuperButton_shape) {
+            if (attr == R.styleable.text_view_shape_shape_type) {
                 mShape = typedArray.getInt(attr, RECT);
             }
             //开始颜色
-            if (attr == R.styleable.SuperButton_color_start) {
+            if (attr == R.styleable.text_view_shape_shape_color_start) {
                 mColorStart = typedArray.getColor(attr, Color.TRANSPARENT);
             }
             //结束颜色
-            if (attr == R.styleable.SuperButton_color_end) {
+            if (attr == R.styleable.text_view_shape_shape_color_end) {
                 mColorEnd = typedArray.getColor(attr, Color.TRANSPARENT);
             }
             //颜色方向
-            if (attr == R.styleable.SuperButton_color_direction) {
+            if (attr == R.styleable.text_view_shape_shape_color_direction) {
                 mColorDirection = typedArray.getInt(attr, LEFT_RIGHT);
             }
             //所有角圆角半径
-            if (attr == R.styleable.SuperButton_corner) {
+            if (attr == R.styleable.text_view_shape_shape_corner) {
                 mCorner = typedArray.getDimensionPixelSize(attr, VALUE_DEFAULT);
             }
             //左上角圆角半径
-            if (attr == R.styleable.SuperButton_corner_left_top) {
+            if (attr == R.styleable.text_view_shape_shape_corner_left_top) {
                 mCornerLeftTop = typedArray.getDimensionPixelSize(attr, VALUE_NULL);
             }
             //右上角圆角半径
-            if (attr == R.styleable.SuperButton_corner_right_top) {
+            if (attr == R.styleable.text_view_shape_shape_corner_right_top) {
                 mCornerRightTop = typedArray.getDimensionPixelSize(attr, VALUE_NULL);
             }
             //左下角圆角半径
-            if (attr == R.styleable.SuperButton_corner_left_bottom) {
+            if (attr == R.styleable.text_view_shape_shape_corner_left_bottom) {
                 mCornerLeftBottom = typedArray.getDimensionPixelSize(attr, VALUE_NULL);
             }
             //右下角圆角半径
-            if (attr == R.styleable.SuperButton_corner_right_bottom) {
+            if (attr == R.styleable.text_view_shape_shape_corner_right_bottom) {
                 mCornerRightBottom = typedArray.getDimensionPixelSize(attr, VALUE_NULL);
             }
             //边框宽度
-            if (attr == R.styleable.SuperButton_border_width) {
+            if (attr == R.styleable.text_view_shape_shape_border_width) {
                 mBorderWidth = typedArray.getDimensionPixelSize(attr, 0);
             }
             //边框颜色
-            if (attr == R.styleable.SuperButton_border_color) {
+            if (attr == R.styleable.text_view_shape_shape_border_color) {
                 mBorderColor = typedArray.getColor(attr, Color.TRANSPARENT);
             }
             //按钮是否可以点击
-            if (attr == R.styleable.SuperButton_button_click_able) {
+            if (attr == R.styleable.text_view_shape_shape_button_click_able) {
                 mButtonClickable = typedArray.getBoolean(attr, true);
             }
         }

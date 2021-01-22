@@ -25,11 +25,11 @@
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="40dp"
-                app:color_normal="#e74d4d"
-                app:corner="8dp"
-                app:text="按钮"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="8dp"
+                app:shape_text="按钮"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:id="@+id/btn12"
@@ -37,21 +37,21 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                app:color_normal="#e74d4d"
-                app:corner="8dp"
-                app:text="加粗"
-                app:textColor="#ffffff"
-                app:textSize="16sp"
-                app:textStyle="bold" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="8dp"
+                app:shape_text="加粗"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp"
+                app:shape_text_style="bold" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="40dp"
-                app:color_normal="#999999"
-                app:corner="8dp"
-                app:text="置灰"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#999999"
+                app:shape_corner="8dp"
+                app:shape_text="置灰"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
         </LinearLayout>
 
@@ -71,41 +71,41 @@
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="40dp"
-                app:color_normal="#e74d4d"
-                app:corner="4dp"
-                app:text="4dp"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="4dp"
+                app:shape_text="4dp"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                app:color_normal="#e74d4d"
-                app:corner="12dp"
-                app:text="12dp"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="12dp"
+                app:shape_text="12dp"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
-                app:color_normal="#e74d4d"
-                app:corner="20dp"
-                app:text="20dp"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="20dp"
+                app:shape_text="20dp"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="60dp"
                 android:layout_height="24dp"
-                app:color_normal="#e74d4d"
-                app:corner="12dp"
-                app:text="12dp"
-                app:textColor="#ffffff"
-                app:textSize="14sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="12dp"
+                app:shape_text="12dp"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="14sp" />
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -123,25 +123,25 @@
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="40dp"
-                app:border_color="#e74d4d"
-                app:border_width="1dp"
-                app:color_normal="#ffffff"
-                app:corner="8dp"
-                app:text="按钮"
-                app:textColor="#e74d4d"
-                app:textSize="16sp" />
+                app:shape_border_color="#e74d4d"
+                app:shape_border_width="1dp"
+                app:shape_color_normal="#ffffff"
+                app:shape_corner="8dp"
+                app:shape_text="按钮"
+                app:shape_text_color="#e74d4d"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="20dp"
-                app:border_color="#999999"
-                app:border_width="1dp"
-                app:color_normal="#ffffff"
-                app:corner="8dp"
-                app:text="置灰"
-                app:textColor="#999999"
-                app:textSize="16sp" />
+                app:shape_border_color="#999999"
+                app:shape_border_width="1dp"
+                app:shape_color_normal="#ffffff"
+                app:shape_corner="8dp"
+                app:shape_text="置灰"
+                app:shape_text_color="#999999"
+                app:shape_text_size="16sp" />
 
         </LinearLayout>
 
@@ -160,27 +160,27 @@
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="40dp"
-                app:border_color="#e74d4d"
-                app:border_width="1dp"
-                app:color_normal="#ffffff"
-                app:corner_left_bottom="20dp"
-                app:corner_right_top="20dp"
-                app:text="按钮"
-                app:textColor="#e74d4d"
-                app:textSize="16sp" />
+                app:shape_border_color="#e74d4d"
+                app:shape_border_width="1dp"
+                app:shape_color_normal="#ffffff"
+                app:shape_corner_left_bottom="20dp"
+                app:shape_corner_right_top="20dp"
+                app:shape_text="按钮"
+                app:shape_text_color="#e74d4d"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="20dp"
-                app:border_color="#999999"
-                app:border_width="1dp"
-                app:color_normal="#ffffff"
-                app:corner_left_top="20dp"
-                app:corner_right_top="20dp"
-                app:text="置灰"
-                app:textColor="#999999"
-                app:textSize="16sp" />
+                app:shape_border_color="#999999"
+                app:shape_border_width="1dp"
+                app:shape_color_normal="#ffffff"
+                app:shape_corner_left_top="20dp"
+                app:shape_corner_right_top="20dp"
+                app:shape_text="置灰"
+                app:shape_text_color="#999999"
+                app:shape_text_size="16sp" />
 
         </LinearLayout>
 
@@ -199,21 +199,21 @@
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="40dp"
-                app:color_normal="#e74d4d"
-                app:corner="8dp"
-                app:text="矩形"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="8dp"
+                app:shape_text="矩形"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="20dp"
-                app:color_normal="#e74d4d"
-                app:shape="CIRCLE"
-                app:text="圆"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_type="CIRCLE"
+                app:shape_text="圆"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
         </LinearLayout>
 
@@ -232,24 +232,24 @@
             <zpan.lib.shape.TextViewShape
                 android:layout_width="160dp"
                 android:layout_height="40dp"
-                app:color_end="#e74d4d"
-                app:color_start="#6B98E9"
-                app:corner="8dp"
-                app:text="默认从左到右"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_end="#e74d4d"
+                app:shape_color_start="#6B98E9"
+                app:shape_corner="8dp"
+                app:shape_text="默认从左到右"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="160dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="20dp"
-                app:color_direction="TOP_BOTTOM"
-                app:color_end="#e74d4d"
-                app:color_normal="#e74d4d"
-                app:color_start="#6B98E9"
-                app:text="从上到下"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_direction="TOP_BOTTOM"
+                app:shape_color_end="#e74d4d"
+                app:shape_color_normal="#e74d4d"
+                app:shape_color_start="#6B98E9"
+                app:shape_text="从上到下"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -267,12 +267,12 @@
             <zpan.lib.shape.TextViewShape
                 android:layout_width="160dp"
                 android:layout_height="40dp"
-                app:color_normal="#999999"
-                app:color_pressed="#e74d4d"
-                app:corner="8dp"
-                app:text="点击改变背景颜色"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#999999"
+                app:shape_color_pressed="#e74d4d"
+                app:shape_corner="8dp"
+                app:shape_text="点击改变背景颜色"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -291,49 +291,49 @@
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="44dp"
-                app:color_normal="#e74d4d"
-                app:corner="8dp"
-                app:drawable_left="@mipmap/ic_launcher"
-                app:drawable_padding="8dp"
-                app:text="按钮"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="8dp"
+                app:shape_drawable_left="@mipmap/ic_launcher"
+                app:shape_drawable_padding="8dp"
+                app:shape_text="按钮"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="44dp"
                 android:layout_marginLeft="10dp"
-                app:color_normal="#e74d4d"
-                app:corner="8dp"
-                app:drawable_padding="8dp"
-                app:drawable_right="@mipmap/ic_launcher"
-                app:text="按钮"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="8dp"
+                app:shape_drawable_padding="8dp"
+                app:shape_drawable_right="@mipmap/ic_launcher"
+                app:shape_text="按钮"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp"
-                app:color_normal="#e74d4d"
-                app:corner="8dp"
-                app:drawable_padding="2dp"
-                app:drawable_top="@mipmap/ic_launcher"
-                app:text="按钮"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="8dp"
+                app:shape_drawable_padding="2dp"
+                app:shape_drawable_top="@mipmap/ic_launcher"
+                app:shape_text="按钮"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
 
             <zpan.lib.shape.TextViewShape
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp"
-                app:color_normal="#e74d4d"
-                app:corner="8dp"
-                app:drawable_bottom="@mipmap/ic_launcher"
-                app:drawable_padding="2dp"
-                app:text="按钮"
-                app:textColor="#ffffff"
-                app:textSize="16sp" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_corner="8dp"
+                app:shape_drawable_bottom="@mipmap/ic_launcher"
+                app:shape_drawable_padding="2dp"
+                app:shape_text="按钮"
+                app:shape_text_color="#ffffff"
+                app:shape_text_size="16sp" />
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -351,9 +351,9 @@
             <zpan.lib.shape.TextViewShape
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                app:color_normal="#e74d4d"
-                app:drawable_middle="@mipmap/ic_launcher"
-                app:shape="CIRCLE" />
+                app:shape_color_normal="#e74d4d"
+                app:shape_drawable_middle="@mipmap/ic_launcher"
+                app:shape_type="CIRCLE" />
         </LinearLayout>
 
     </androidx.appcompat.widget.LinearLayoutCompat>

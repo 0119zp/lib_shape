@@ -12,9 +12,6 @@ import android.widget.LinearLayout;
 import androidx.annotation.ColorInt;
 import androidx.annotation.Nullable;
 
-/**
- * @author zpan
- */
 public class LinearLayoutShape extends LinearLayout {
 
     /**
@@ -189,56 +186,56 @@ public class LinearLayoutShape extends LinearLayout {
      * 属性配置
      */
     private void parseAttrs(Context context, AttributeSet attrs) {
-        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.ShapeLayout);
+        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.layout_shape);
         int length = typedArray.getIndexCount();
         for (int i = 0; i < length; i++) {
             int attr = typedArray.getIndex(i);
             //默认背景颜色
-            if (attr == R.styleable.ShapeLayout_shape_color_normal) {
+            if (attr == R.styleable.layout_shape_layout_color_normal) {
                 mColorNormal = typedArray.getColor(attr, VALUE_NULL);
             }
             //形状
-            if (attr == R.styleable.ShapeLayout_shape_type) {
+            if (attr == R.styleable.layout_shape_layout_type) {
                 mShape = typedArray.getInt(attr, RECT);
             }
             //开始颜色
-            if (attr == R.styleable.ShapeLayout_shape_color_start) {
+            if (attr == R.styleable.layout_shape_layout_color_start) {
                 mColorStart = typedArray.getColor(attr, Color.TRANSPARENT);
             }
             //结束颜色
-            if (attr == R.styleable.ShapeLayout_shape_color_end) {
+            if (attr == R.styleable.layout_shape_layout_color_end) {
                 mColorEnd = typedArray.getColor(attr, Color.TRANSPARENT);
             }
             //颜色方向
-            if (attr == R.styleable.ShapeLayout_shape_color_direction) {
+            if (attr == R.styleable.layout_shape_layout_color_direction) {
                 mColorDirection = typedArray.getInt(attr, LEFT_RIGHT);
             }
             //所有角圆角半径
-            if (attr == R.styleable.ShapeLayout_shape_corner) {
+            if (attr == R.styleable.layout_shape_layout_corner) {
                 mCorner = typedArray.getDimensionPixelSize(attr, VALUE_DEFAULT);
             }
             //左上角圆角半径
-            if (attr == R.styleable.ShapeLayout_shape_corner_left_top) {
+            if (attr == R.styleable.layout_shape_layout_corner_left_top) {
                 mCornerLeftTop = typedArray.getDimensionPixelSize(attr, VALUE_NULL);
             }
             //右上角圆角半径
-            if (attr == R.styleable.ShapeLayout_shape_corner_right_top) {
+            if (attr == R.styleable.layout_shape_layout_corner_right_top) {
                 mCornerRightTop = typedArray.getDimensionPixelSize(attr, VALUE_NULL);
             }
             //左下角圆角半径
-            if (attr == R.styleable.ShapeLayout_shape_corner_left_bottom) {
+            if (attr == R.styleable.layout_shape_layout_corner_left_bottom) {
                 mCornerLeftBottom = typedArray.getDimensionPixelSize(attr, VALUE_NULL);
             }
             //右下角圆角半径
-            if (attr == R.styleable.ShapeLayout_shape_corner_right_bottom) {
+            if (attr == R.styleable.layout_shape_layout_corner_right_bottom) {
                 mCornerRightBottom = typedArray.getDimensionPixelSize(attr, VALUE_NULL);
             }
             //边框宽度
-            if (attr == R.styleable.ShapeLayout_shape_border_width) {
+            if (attr == R.styleable.layout_shape_layout_border_width) {
                 mBorderWidth = typedArray.getDimensionPixelSize(attr, 0);
             }
             //边框颜色
-            if (attr == R.styleable.ShapeLayout_shape_border_color) {
+            if (attr == R.styleable.layout_shape_layout_border_color) {
                 mBorderColor = typedArray.getColor(attr, Color.TRANSPARENT);
             }
         }
