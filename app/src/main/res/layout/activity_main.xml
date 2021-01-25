@@ -27,4 +27,15 @@
         app:shape_text_color="#ffffff"
         app:shape_text_size="16sp" />
 
+    <zpan.lib.shape.TextViewShape
+        android:id="@+id/btn_to_shape_line"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        app:shape_color_normal="#e74d4d"
+        app:shape_corner="8dp"
+        app:shape_text="LineShape"
+        app:shape_text_color="#ffffff"
+        app:shape_text_size="16sp" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

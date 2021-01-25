@@ -7,15 +7,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * @author zpan
- * @date 2019/10/22 20:03
- *
- * description: TextViewShape 示例
+ * @date 2021/1/22 5:07 PM
+ * <p>
+ * description: LineShape 示例
  */
-public class TextViewShapeActivity extends AppCompatActivity {
+public class LineShapeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shape_textview);
+        setContentView(R.layout.activity_shape_line);
     }
+
 }

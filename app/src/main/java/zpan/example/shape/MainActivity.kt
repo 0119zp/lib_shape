@@ -21,5 +21,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LayoutShapeActivity::class.java)
             startActivity(intent)
         }
+
+        btn_to_shape_line.setOnClickListener {
+            val intent = Intent(this, LineShapeActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

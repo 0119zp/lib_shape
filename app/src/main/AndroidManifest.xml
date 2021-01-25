@@ -20,6 +20,8 @@
         <activity android:name="zpan.example.shape.TextViewShapeActivity" />
 
         <activity android:name="zpan.example.shape.LayoutShapeActivity" />
+
+        <activity android:name=".LineShapeActivity" />
     </application>
 
 </manifest>

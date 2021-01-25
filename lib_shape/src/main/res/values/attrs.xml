@@ -135,4 +135,16 @@
         <!--边框颜色-->
         <attr name="layout_border_color" format="color" />
     </declare-styleable>
+
+    <declare-styleable name="line_shape">
+        <!--线宽度-->
+        <attr name="line_width" format="dimension" />
+        <!--线颜色-->
+        <attr name="line_color" format="color" />
+        <!--线宽度-->
+        <attr name="line_dash_width" format="dimension" />
+        <!--线宽度-->
+        <attr name="line_dash_gap" format="dimension" />
+    </declare-styleable>
 </resources>
+
